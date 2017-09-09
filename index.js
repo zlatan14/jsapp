@@ -17,3 +17,6 @@ function nongHelloworld (nick) {
 
 nongHelloworld('nickkkkkk', 20, 30); ///20,30 not be subset of Nickkkkkkkkkkkkk!!!!!!!!!! NOted
 
+const arr = new Array(1, 2, 3);
+console.log('Test');
+console.log('arr', arr);
