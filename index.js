@@ -1,22 +1,11 @@
 var y = '3fdsa';
 console.log('y', y);
 
-function nongHelloworld (nick) {
-    const x = 3;
-    let z = 'hello ';
-    z = 4;
-    var y = "test";
+function nongHelloworld (x, y, z) {
+    console.log('x', x);
     console.log('y', y);
-    console.log('x', typeof x);
-    console.log('z', typeof z);
     console.log('z', z);
-    console.log('nick', nick);
-    console.log('rest of arguments', arguments)
-    console.log(`arguments['2']`, arguments['2']);
 }
 
-nongHelloworld('nickkkkkk', 20, 30); ///20,30 not be subset of Nickkkkkkkkkkkkk!!!!!!!!!! NOted
-
 const arr = new Array(1, 2, 3);
-console.log('Test Nick');
-console.log('arr', arr);
+nongHelloworld(...arr); ///20,30 not be subset of Nickkkkkkkkkkkkk!!!!!!!!!! NOted
